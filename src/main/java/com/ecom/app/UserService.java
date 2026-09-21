@@ -14,9 +14,9 @@ public class UserService {
         return userList;
     }
 
-    public List<User> addUser(User user) {
+    public void addUser(User user) {
         userList.add(user);
-        return userList;
+
     }
 }
 
